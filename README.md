@@ -2,9 +2,25 @@
 
 AirBite is a full-stack food delivery web application that simulates autonomous drone-based delivery. Users can browse restaurants, add products to a cart, place orders, and track deliveries in real time while the system assigns drones based on package weight and delivery conditions.
 
+[-------------------------------------------------------------------------------------------]
+
+![Draft1.png]
+
+[-------------------------------------------------------------------------------------------]
+
+![/images/1.png]
+
+[-------------------------------------------------------------------------------------------]
+
 * Project Overview
 
 The goal of this project was to combine modern web development with a practical logistics concept: food delivery performed by drones instead of traditional drivers. The application demonstrates both customer-facing features and backend delivery logic, including drone assignment, estimated delivery time, and live order tracking.
+
+[-------------------------------------------------------------------------------------------]
+
+![/images/2.png]
+
+[-------------------------------------------------------------------------------------------]
 
 * Main Features
 
@@ -17,6 +33,12 @@ The goal of this project was to combine modern web development with a practical 
 - Drone fleet status page showing drone type, battery, location, and current state
 - Automatic drone state updates after delivery completion
 
+[-------------------------------------------------------------------------------------------]
+
+![/images/12.png]
+
+[-------------------------------------------------------------------------------------------]
+
 * Tech Stack
 
 - **Backend:** Java, Spring Boot
@@ -26,6 +48,12 @@ The goal of this project was to combine modern web development with a practical 
 - **Authentication:** JWT
 - **ORM / Persistence:** Spring Data JPA, Hibernate
 
+[-------------------------------------------------------------------------------------------]
+
+![/images/4.png]
+
+[-------------------------------------------------------------------------------------------]
+
 * Business Logic Highlights
 
 - Orders are evaluated by total package weight
@@ -34,6 +62,12 @@ The goal of this project was to combine modern web development with a practical 
 - While an order is active, the assigned drone changes state to `DELIVERING`
 - When the delivery is completed, the drone returns to `IDLE`
 - Drone battery level is tracked and displayed in the fleet view
+
+[-------------------------------------------------------------------------------------------]
+
+![/images/5.png]
+
+[-------------------------------------------------------------------------------------------]
 
 * Pages Included
 
@@ -45,6 +79,12 @@ The goal of this project was to combine modern web development with a practical 
 - Live order tracking
 - Drone fleet overview
 
+[-------------------------------------------------------------------------------------------]
+
+![/images/6.png]
+
+[-------------------------------------------------------------------------------------------]
+
 * Project Purpose
 
 This project was created as a portfolio application to demonstrate:
@@ -55,11 +95,19 @@ This project was created as a portfolio application to demonstrate:
 - debugging and iterative improvement
 - real-world inspired system design
 
+[-------------------------------------------------------------------------------------------]
+
+![/images/7.png]
+
+[-------------------------------------------------------------------------------------------]
+
 * Current Status
 
 The application is functional as a prototype/portfolio project. Core ordering, tracking, and drone status behavior are implemented, including fixes for UI refresh issues where drones now correctly update back to `IDLE` after delivery.
 
 * Repository Contents
+
+![/images/8.png]
 
 This repository may include:
 - source code
@@ -67,6 +115,12 @@ This repository may include:
 - project presentation PDF
 - selected code snippets
 - supporting documentation
+
+[-------------------------------------------------------------------------------------------]
+
+![/images/9.png]
+
+[-------------------------------------------------------------------------------------------]
 
 * Future Improvements
 
@@ -77,6 +131,16 @@ This repository may include:
 - Role-based authentication
 - Enhanced responsive design
 - Deployment to a public hosting platform
+
+[-------------------------------------------------------------------------------------------]
+
+![/images/10.png]
+
+[-------------------------------------------------------------------------------------------]
+
+![/images/11.png]
+
+[-------------------------------------------------------------------------------------------]
 
 ## Special Thanks
 
@@ -89,6 +153,24 @@ Her eye for design helped shape the overall style and presentation of AirBite.
 Created by **B. Botond** as part of a portfolio and learning journey in Java backend development, QA, and full-stack application building. 
 
 ## Credits & Copyright
+
+[-------------------------------------------------------------------------------------------]
+
+![/images/3.png]
+
+[-------------------------------------------------------------------------------------------]
+
+![/images/airbitelogo.png]
+
+[-------------------------------------------------------------------------------------------]
+
+![/images/drone-tracker-icon.png]
+
+[-------------------------------------------------------------------------------------------]
+
+![/images/favicon.ico]
+
+[-------------------------------------------------------------------------------------------]
 
 Project concept, implementation, and documentation by **B. Botond**.  
 UI and visual design contributions by **Alina R.**.
